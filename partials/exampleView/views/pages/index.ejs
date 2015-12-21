@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <% include ../partials/head %>
+  </head>
+  <body class="container">
+  <header>
+    <% include ../partials/header %>
+  </header>
+
+<h2>Variable</h2>
+  <p> <%= burrito %> </p>
+
+<h2>Loop</h2>
+
+<ul>
+  <%
+  drinks.forEach(function(drink){
+    %>
+    <li><%= drink.name %> - <%= drink.drunkness %></li>
+
+
+<%  }); %>
+</ul>
+
+
+
+<footer>
+  <% include ../partials/footer %>
+</footer>
+
+  </body>
+</html>

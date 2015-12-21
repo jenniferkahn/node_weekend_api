@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Lamthong Keo",
+    "SpiritAnimal": "Cat",
+    "DoTheyLikeIt": false
+  },
+  {
+    "Name": "Jennifer Kahn",
+    "SpiritAnimal": "Dolphin",
+    "DoTheyLikeIt": true
+  },
+  {
+    "Name": "Paul Boyle",
+    "SpiritAnimal": "Raccoon",
+    "DoTheyLikeIt": true
+  },
+  {
+    "Name": "Jason Bratt",
+    "SpiritAnimal": "Tiger",
+    "DoTheyLikeIt": true
+  }
+]

@@ -1,0 +1,141 @@
+html{
+  font-family: montserrat, sans-serif;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  height: 70%;
+  width: 100%;
+  margin: 0 0 0 0;
+  color: black;
+  padding: 0;
+  background-image: url(../images/sunset.jpg);
+}
+
+body {
+  margin: 0;
+  font-size: 45px;
+  color: yellow;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/montserrat.otf);
+}
+/*
+#timer {
+float: left;
+
+}*/
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+#trivia {
+padding: 5px;
+margin:auto;
+height: 90%;
+width: 70%;
+background-color: rgb(0, 0, 0);
+color: black;
+font-family: montserrat;
+font-size: 44px;
+border: 3px solid white;
+}
+content {
+
+  color: black;
+}
+
+button {
+font-size: 32px;
+font-family: montserrat;
+border: 3px solid green;
+background-color:#67D6AC;
+}
+
+
+
+/*
+
+header {
+width: 90%;
+height: 30%;
+text-align: left;
+}*/
+
+/*
+
+body {
+height: 100%;
+width: 100%;
+margin: 0 0 0 0;
+font-family: montserrant;
+}*/
+
+/*
+main{
+
+height: 600px;
+length:100px;
+align: right;
+}*/
+
+
+
+#question-form {
+background-color:yellow;
+border: 20px solid purple;
+color: black;
+
+
+}
+
+#question-for-user {
+background-color: rgb(131, 177, 106);
+border: 6px white dashed;
+font-size: 36px;
+font-family: montserrat;
+color: black;
+margin: auto;
+padding: 100px;
+
+
+}
+
+#user-answer {
+background-color: orange;
+font-size: 36px;
+font-family: montserrat;
+color: black;
+}
+
+#player-score {
+background-color: rgb(212, 67, 228);
+border:15px blue dashed;
+float: bottom;
+padding:50px;
+margin: auto;
+
+font-size: 36px;
+font-family: montserrat;
+}
+
+
+
+/*
+
+#gameOver {
+	background-color:#E64245
+
+}*/
+
+
+#footer {
+   float: bottom;
+   font-size:12px;
+   left:0px;
+   bottom:0px;
+   height:300px;
+   width:100%;
+   background:#1abc9c;
+}
