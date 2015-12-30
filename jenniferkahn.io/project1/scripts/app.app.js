@@ -63,6 +63,13 @@ $(document).ready(function() {
   $(ui.scoreBox).html(game.score);
 
   // button click event .....Take it out of the console.
+  //
+  // <script>
+  // $( "p" ).click(function() {
+  //   $( this ).slideUp();
+  // });
+  // </script>
+
 
   $(ui.button).on('click', function() {
 
@@ -71,8 +78,7 @@ $(document).ready(function() {
   if (game.currentQuestionId >= (content.length - 1)) {
    alert('game over :)');
       // JEN ---- this is the code that shows GAME OVER
-
-  $(ui.scoreBox).html('Game Over!')
+    $(ui.scoreBox).html('Game Over!');
       // game over
   } else {
   var usersAnswer = $(ui.answer).val();
@@ -87,8 +93,8 @@ $(document).ready(function() {
   $(ui.answer).html('Correct!')
   // alert('You got it right!'); // replace alert and append to DOM
   } else {
-  alert('Sorry, you got it wrong');
-  $(#'ui.answer').text('Nope, wrong!') // replace alert and append to DOM
+  alert('Sorry, womp womp... you got it wrong');
+  $(ui.answer).html('Nope, wrong!'); // replace alert and append to DOM
 }
   // increment  questionId...update for next question
   game.currentQuestionId++; //game.currentQuestionId = game.currentQuestionId + 1
